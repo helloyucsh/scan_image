@@ -4,11 +4,13 @@ import zbar,string
 import Image
 import subprocess
 
+333333333333333333333333333333333333333333333333333333333333333333
 def linux_command(command_line):
     process1=subprocess.Popen(command_line,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
     result,err=process1.communicate()
     return result,err
 
+#####################################################################
 def move_old_image(filename):
     #find file's directory
     print 'check file if it should be removed or not',filename
